@@ -11,6 +11,10 @@
     max-width: 1372px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color: #dddddd;
     padding: 26px 0px;
@@ -23,7 +27,6 @@ header .headerFlex {
 }
 
 header a {
-    text-decoration: none;
     color: black;
     margin-left: 16px;
 }
@@ -42,4 +45,24 @@ main .top .blackText {
 main .top .grayText {
     font-size: 64px;
     color: #4e4e4e;
+}
+
+main .gallery {
+    margin-top: -207px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+main .gallery .image {
+    background-color: #eeeeee;
+    height: 329px;
+    min-width: 428px;
+    border-radius: 16px;
+    margin-top: 63px;
+}
+
+main .gallery .image a {
+    color: #0E53F6;
 }
