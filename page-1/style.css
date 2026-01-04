@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    font-size: 36px;
 }
 
 .container {
@@ -63,6 +64,36 @@ main .gallery .image {
     margin-top: 63px;
 }
 
-main .gallery .image a {
+main .image a {
     color: #0E53F6;
+    font-size: 29px;
+}
+
+main .image p {
+    font-size: 32px;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 291px;
+    padding: 20px 0px;
+}
+
+footer .footerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .circle {
+    background-color: #d9d9d9;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
 }
