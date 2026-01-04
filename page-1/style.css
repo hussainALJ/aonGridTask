@@ -27,3 +27,19 @@ header a {
     color: black;
     margin-left: 16px;
 }
+
+main .top {
+    background-color: #dddddd;
+    padding-top: 160px;
+    padding-bottom: 253px;
+}
+
+main .top .blackText {
+    font-size: 86px;
+    color: #1e1e1e;
+}
+
+main .top .grayText {
+    font-size: 64px;
+    color: #4e4e4e;
+}
