@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1220px;
+    max-width: 1320px;
     margin: 0px auto;
     padding: 10px;
 }
@@ -14,4 +14,18 @@
 header {
     background-color: #d9d9d9;
     padding-top: 180px;
+}
+
+header nav {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+header nav div {
+    background-color: #eeeeee;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
 }
