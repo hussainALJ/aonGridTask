@@ -7,6 +7,11 @@
 
 .container {
     max-width: 1220px;
-    margin: 180px auto 0px;
+    margin: 0px auto;
     padding: 10px;
+}
+
+header {
+    background-color: #d9d9d9;
+    padding-top: 180px;
 }
