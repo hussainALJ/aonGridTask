@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -8,4 +9,20 @@
     height: 738px;
     padding: 10px;
     margin: 100px auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+
+}
+
+.grid div {
+    background-color: black;
+    min-height: 350px;
+}
+
+.one {
+    grid-row: 1 / 3;
 }
