@@ -44,9 +44,6 @@ main .profile {
     flex-grow: 1;
 }
 
-main .gallery {
-    flex-grow: 10;
-}
 
 main .profile .info {
     margin: -150px auto 0px;
@@ -73,4 +70,48 @@ main .info .name {
 
 main .info .phone {
     font-weight: 400;
+}
+
+main .gallery {
+    flex-grow: 10;
+    padding-left: 42px;
+    height: 720px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 32px;
+}
+
+main .gallery div {
+    background-color: #eeeeee;
+    border-radius: 16px;
+}
+
+main .gallery .one {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+main .gallery .two {
+    grid-column: 8 / 10;
+    grid-row: 1;
+}
+
+main .gallery .three {
+    grid-column: 1 / 10;
+    grid-row: 2 / 5;
+}
+
+main .gallery .four {
+    grid-column: 1 / 4;
+    grid-row: 5 / 7;
+}
+
+main .gallery .five {
+    grid-column: 4 / 10;
+    grid-row: 5 / 7;
+}
+
+main .gallery .six {
+    grid-column: 1 / 10;
+    grid-row: 7 / 10;
 }
