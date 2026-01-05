@@ -4,7 +4,19 @@
 }
 
 .container {
-    width: 1302px;
-    height: 748px;
-    margin: auto;
+    max-width: 1300px;
+    height: 738px;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+}
+
+.grid div {
+    height: 358px;
+    background-color: #d9d9d9;
 }
