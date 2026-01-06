@@ -20,3 +20,20 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
+
+main .top {
+    background-color: #eeeeee;
+}
+
+main .circles {
+    padding: 10px 0px 10px 28px;
+    display: flex;
+    gap: 18px;
+}
+
+main .circles div {
+    background-color: #d9d9d9;
+    min-width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
