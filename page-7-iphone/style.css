@@ -5,8 +5,8 @@
 }
 
 .container {
-    width: 374px;
-    margin: 0px auto;
+    width: auto;
+    margin: 0px 18px;
     padding: 10px;
 }
 
@@ -36,4 +36,34 @@ main .circles div {
     min-width: 46px;
     height: 46px;
     border-radius: 50%;
+}
+
+
+
+main .banner {
+    background-color: #eeeeee;
+    margin-top: 20px;
+    height: 87px;
+    border-radius: 16px;
+}
+
+main .slider {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+main .slider div {
+    background-color: #eeeeee;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+main .slider .selected {
+    background-color: #d9d9d9;
+    width: 69px;
+    border-radius: 24px;
 }
